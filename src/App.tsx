@@ -16,6 +16,9 @@ import Auth from './pages/Auth';
 import Blog from './pages/Blog';
 import FAQ from './pages/FAQ';
 import Footer from './components/Footer';
+import RecruiterCallbackForm from './pages/RecruiterCallbackForm';
+import AdminPanelRecruiter from './pages/AdminPanelRecruiter';
+import RecruiterAdminDashboard from './pages/RecruiterAdminDashboard';
 
 function App() {
   return (
@@ -31,6 +34,9 @@ function App() {
             <Route path="/get-hired" element={<GetHired />} />
             <Route path="/progress" element={<TrackProgress />} />
             <Route path="/recruiters" element={<ForRecruiters />} />
+            <Route path="/recruiter-callback" element={<RecruiterCallbackForm />} />
+            <Route path="/recruiter-admin-login" element={<AdminPanelRecruiter />} />
+            <Route path="/recruiter-admin-dashboard" element={<RecruiterAdminDashboard />} />
             <Route path="/portfolio" element={<PortfolioTracker />} />
             <Route path="/about" element={<About />} />
             <Route path="/contact" element={<Contact />} />

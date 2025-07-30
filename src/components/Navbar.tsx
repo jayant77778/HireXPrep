@@ -112,18 +112,12 @@ const Navbar = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Link
-              to="/auth"
-              className="text-slate-300 hover:text-cyan-400 transition-colors"
-            >
-              Login
-            </Link>
             <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>
               <Link
                 to="/auth"
                 className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-6 py-2 rounded-lg font-medium transition-all duration-200 shadow-lg shadow-cyan-500/25"
               >
-                Start Free
+                Login / Signup
               </Link>
             </motion.div>
           </div>
@@ -182,16 +176,9 @@ const Navbar = () => {
                 <Link
                   to="/auth"
                   onClick={() => setIsOpen(false)}
-                  className="block px-4 py-3 text-slate-300 hover:text-cyan-400 transition-colors"
-                >
-                  Login
-                </Link>
-                <Link
-                  to="/auth"
-                  onClick={() => setIsOpen(false)}
                   className="block px-4 py-3 bg-gradient-to-r from-cyan-500 to-blue-500 text-white rounded-lg font-medium text-center"
                 >
-                  Start Free
+                  Login / Signup
                 </Link>
               </div>
             </div>

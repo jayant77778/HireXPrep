@@ -4,13 +4,12 @@ import { getAuth } from "firebase/auth";
 
 
 const firebaseConfig = {
-  apiKey: "AIzaSyBSl10xz7it0hDkzGpT8CHFvyTaWbQNvLw",
-  authDomain: "hirexprep.firebaseapp.com",
-  projectId: "hirexprep",
-  storageBucket: "hirexprep.appspot.com",
-  messagingSenderId: "274774325676",
-  appId: "1:274774325676:web:dff4a2588c2df7faa06209",
-  measurementId: "G-3P0NVY5CEW"
+  apiKey: "AIzaSyAbS1ECiOUYSWeEcN5koSZEXKHsDuA2GFk",
+  authDomain: "hirexprep-3dbd0.firebaseapp.com",
+  projectId: "hirexprep-3dbd0",
+  storageBucket: "hirexprep-3dbd0.appspot.com",
+  messagingSenderId: "771781400819",
+  appId: "1:771781400819:web:233b66028dcbe39ca8ff86"
 };
 
 const app = initializeApp(firebaseConfig);
